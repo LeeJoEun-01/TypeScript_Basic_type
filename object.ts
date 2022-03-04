@@ -1,0 +1,9 @@
+// create by object literal
+const person1 = {name: 'Mark', age: 39};
+console.log(typeof(person1))
+
+// person1 is "{name: string, age: number}" type
+
+//create by Object.create
+const person2 = Object.create({name: 'Mark', age: 39});
+console.log(typeof(person2))
